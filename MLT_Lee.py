@@ -47,8 +47,8 @@ LR = 0.0001
 STEP_SIZE = 700
 EPOCH_NUM = 2000
 best_acc  = 0
-BATCH_SIZE_SOURCE = 10
-BATCH_SIZE_TARGET = 2
+BATCH_SIZE_SOURCE = 48
+BATCH_SIZE_TARGET = 24
 result = np.zeros([EPOCH_NUM,12])
 torch.cuda.empty_cache()
 
